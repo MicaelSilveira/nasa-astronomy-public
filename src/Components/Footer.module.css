@@ -1,0 +1,33 @@
+.footer {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  background: #eee;
+  box-shadow: 0px 0px 15px #333;
+  z-index: 100;
+  margin-top: 200px;
+  width: 100%;
+}
+.links {
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.links a:hover {
+  color: darkcyan;
+}
+.links a {
+  margin: 5px;
+  color: #333;
+  font-weight: bold;
+}
+@media (max-width: 29rem) {
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+}

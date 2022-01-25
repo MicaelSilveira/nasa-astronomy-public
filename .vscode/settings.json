@@ -3,7 +3,7 @@
   "files.exclude": {
     ".vscode": true,
     ".eslintrc.json": true,
-    ".gitignore": false,
+    ".gitignore": true,
     "next.config.js": true,
     "package-lock.json": true,
     "package.json": true,

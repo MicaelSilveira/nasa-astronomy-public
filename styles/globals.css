@@ -1,16 +1,33 @@
-html,
 body {
-  padding: 0;
+  padding-top: 7rem;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+.animeLeft {
+  opacity: 0;
+  transform: scale(1, 1.5);
+  animation: animeLeft 0.5s forwards;
+  z-index: 100;
+}
+@keyframes animeLeft {
+  to {
+    opacity: initial;
+    transform: initial;
+  }
+}
+.active {
+  transition: 0.3s;
+  background: #333;
+  color: white;
+  border-bottom: #333 solid 2px;
+}
+li {
+  list-style: none;
+}
 a {
-  color: inherit;
   text-decoration: none;
 }
-
 * {
   box-sizing: border-box;
 }

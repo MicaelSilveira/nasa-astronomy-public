@@ -1,0 +1,23 @@
+.feedPage {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.next {
+  margin: 20px;
+  width: 100px;
+}
+.feedPage button {
+  font-size: 15px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+.feedPage button:hover {
+  background: gray;
+}

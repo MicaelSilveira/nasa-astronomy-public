@@ -1,0 +1,9 @@
+.photoItem:hover {
+  cursor: pointer;
+}
+.photoItem {
+  width: 100%;
+}
+.photoItem img {
+  width: 100%;
+}

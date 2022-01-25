@@ -1,0 +1,65 @@
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  height: 100%;
+  overflow-y: scroll;
+  background: #eee;
+  border-radius: 10px;
+}
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location {
+  display: flex;
+  justify-content: center;
+}
+.mobile {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.mobile button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background: #333;
+  color: white;
+}
+.img {
+  max-height: 500px;
+  padding: 0px 50px 0px 50px;
+  height: 500px;
+}
+.img img {
+  width: 100%;
+  height: 500px;
+}
+.description {
+  padding: 20px;
+}
+@media (max-width: 35rem) {
+  .mobile {
+    display: flex;
+  }
+  .img img {
+    padding: 0px;
+    width: 100%;
+    height: 300px;
+  }
+  .img {
+    width: 100%;
+    padding: 0px;
+  }
+  .modalContent {
+    padding: 0px;
+  }
+}
+
+.title {
+  text-align: center;
+}
