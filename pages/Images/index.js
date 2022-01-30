@@ -6,7 +6,7 @@ import Loading from "../../src/Loading";
 import { useRouter } from "next/router";
 import Head from "next/head";
 const ImageHome = () => {
-  const [pageStats, setPageStats] = React.useState(44);
+  const [pageStats, setPageStats] = React.useState(10);
   const { request, dataFetch, loadingFetch } = useFetch();
   // const router = useRouter();
   React.useEffect(() => {
