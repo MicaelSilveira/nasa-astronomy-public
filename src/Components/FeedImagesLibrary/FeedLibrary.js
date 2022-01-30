@@ -3,7 +3,7 @@ import styles from "./FeedLibrary.module.css";
 import FeedPage from "./FeedPage";
 import FeedPhotos from "./FeedPhotos";
 const Feed = ({ setPageStats, date }) => {
-  const items = date.collection.items.splice(0, 20);
+  const items = date.collection.items;
   const itemsFilter = items.filter((item) => {
     return item["links"];
   });

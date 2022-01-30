@@ -8,10 +8,14 @@ import Head from "next/head";
 const ImageHome = () => {
   const [pageStats, setPageStats] = React.useState(44);
   const { request, dataFetch, loadingFetch } = useFetch();
-  const router = useRouter();
+  // const router = useRouter();
   React.useEffect(() => {
     async function requestFetch() {
       await request(`${API_IMAGES_LIBRARY_PAGE}${pageStats}`);
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
     }
     requestFetch();
   }, [pageStats]);

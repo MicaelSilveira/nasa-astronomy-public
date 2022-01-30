@@ -3,10 +3,6 @@ import styles from "./FeedPage.module.css";
 const FeedPage = ({ setPageStats }) => {
   function previosClick() {
     setPageStats((page) => page - 1);
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
   }
   function nextClick() {
     setPageStats((page) => page + 1);

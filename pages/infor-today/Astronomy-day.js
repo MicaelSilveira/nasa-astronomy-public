@@ -3,7 +3,6 @@ import Feed from "../../src/Components/Feed";
 import Head from "next/head";
 
 const AstronomyDay = ({ data_Astronomy_day }) => {
-  console.log(data_Astronomy_day);
   return (
     <>
       <div>
